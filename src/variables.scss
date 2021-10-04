@@ -11,3 +11,26 @@ $veryPaleBlue: hsl(207, 100%, 98%);
 // fonts
 $headingFonFamily: 'Poppins', sans-serif;
 $bodyFontFamily: 'Open Sans', sans-serif;
+
+
+%btn {
+    margin-top: 20px;
+    border: 1px solid hsl(0, 100%, 65%);
+    background-color: $pink;
+    padding: 20px 90px;
+    border-radius: 30px;
+    color: rgb(241, 235, 235);
+    box-shadow: 13px 13px 45px -10px rgba(66, 68, 90, 1);
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(110%);
+      transition: filter transform 0.2s ease;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+  }
